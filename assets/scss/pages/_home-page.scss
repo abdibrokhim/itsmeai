@@ -1,0 +1,31 @@
+/* home-page */
+#scrollup.show {
+    visibility: visible;
+}
+
+#scrollup {
+    visibility: hidden;
+}
+
+/* portfolio */
+.portfolio-tabs {
+    ul {
+        .active {
+            color: $primary !important;
+        }
+    }
+}
+
+.portfolio-img {
+    .bottom-contain {
+        display: none;
+    }
+    &:hover {
+        .bottom-contain {
+            display: block;
+        }
+        .top-contain {
+            display: none;
+        }
+    }
+}

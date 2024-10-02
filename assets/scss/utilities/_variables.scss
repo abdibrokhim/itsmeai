@@ -1,0 +1,64 @@
+/* variables */
+$white: #fff;
+$black: #000;
+$black_900: #1d1a29;
+$primary: #7963e0;
+$ghost-white: #f6f8ff;
+$white_95: rgba(255, 255, 255, 0.95);
+$black_12_shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
+$black_shadow_0 : rgba(121, 99, 224, 0);
+
+
+$box_shadow_0:
+    0px 0 $black_shadow_0,
+    0px 0 $black_shadow_0,
+    0px 0 $black_shadow_0,
+    0px 0 $black_shadow_0;
+
+$box_shadow_12:
+    100px 0 $primary,
+    0px 0 $black_shadow_0,
+    0px 0 $black_shadow_0,
+    0px 0 $black_shadow_0;
+
+$box_shadow_25:
+    110px 0 $primary,
+    100px 0 $primary,
+    0px 0 $black_shadow_0,
+    0px 0 $black_shadow_0;
+
+$box_shadow_36:
+    120px 0 $primary,
+    110px 0 $primary,
+    100px 0 $primary,
+    0px 0 $black_shadow_0;
+
+$box_shadow_50:
+    130px 0 $primary,
+    120px 0 $primary,
+    110px 0 $primary,
+    100px 0 $primary;
+
+$box_shadow_62:
+    200px 0 $black_shadow_0,
+    130px 0 $primary,
+    120px 0 $primary,
+    110px 0 $primary;
+
+$box_shadow_75:
+    200px 0 $black_shadow_0,
+    200px 0 $black_shadow_0,
+    130px 0 $primary,
+    120px 0 $primary;
+
+$box_shadow_87:
+    200px 0 $black_shadow_0,
+    200px 0 $black_shadow_0,
+    200px 0 $black_shadow_0,
+    130px 0 $primary;
+
+$box_shadow_100:
+    200px 0 $black_shadow_0,
+    200px 0 $black_shadow_0,
+    200px 0 $black_shadow_0,
+    200px 0 $black_shadow_0;

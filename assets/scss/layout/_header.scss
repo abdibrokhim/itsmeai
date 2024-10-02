@@ -1,0 +1,39 @@
+/* Header */
+#top-menu {
+    li.active {
+        a {
+            color: $primary;
+        }
+    }
+}
+
+.bx-static {
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    z-index: 30;
+    padding: 10px 0;
+}
+
+.bx-fixed {
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    background-color: $white_95 !important;
+    box-shadow: $black_12_shadow;
+    z-index: 30;
+}
+
+.bx-dark {
+    background-color: $black_900 !important;
+}
+
+@media (min-width: 1024px) {
+    #mobile-menu {
+        display: block !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    #mobile-menu {
+        display: none;
+    }
+}

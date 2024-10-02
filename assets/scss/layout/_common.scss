@@ -1,0 +1,78 @@
+/* common */
+body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+h1{
+    font-family: "Quicksand";
+    font-weight: 700;
+    letter-spacing: 0.01rem;  
+    line-height: 1.2;
+}
+
+h2, h3 ,h4 ,h5 ,h6{
+    font-family: "Quicksand";
+    font-weight: 400;
+    letter-spacing: 0.01rem;  
+    line-height: 1.2;
+}
+
+@keyframes shadowRolling {
+    0% {
+        box-shadow: $box_shadow_0;
+    }
+    12% {
+        box-shadow: $box_shadow_12;
+    }
+    25% {
+        box-shadow: $box_shadow_25;
+    }
+    36% {
+        box-shadow: $box_shadow_36;
+    }
+    50% {
+        box-shadow: $box_shadow_50;
+    }
+    62% {
+        box-shadow: $box_shadow_62;
+    }
+    75% {
+        box-shadow: $box_shadow_75;
+    }
+    87% {
+        box-shadow: $box_shadow_87;
+    }
+    100% {
+        box-shadow: $box_shadow_100;
+    }
+}
+
+#bx-overlay {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: $white;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .loader {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        color: $primary;
+        left: -100px;
+        animation: shadowRolling 2s linear infinite;
+    }
+}

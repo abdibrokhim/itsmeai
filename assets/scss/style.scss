@@ -1,0 +1,41 @@
+/*-----------------------------------------------------------------------------------
+
+Item Name: Borox - Tailwind CSS Personal Portfolio Template.
+Author: ashishmaraviya
+Version: 1
+Copyright 2023
+
+-----------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------
+    Included CSS INDEX
+-----------------------------------------------------------------------------------
+
+01. Typography
+
+02. Utilities
+    - variables
+
+03. Layouts
+    - common
+    - header
+    
+04. Pages
+    - home-page
+
+-----------------------------------------------------------------------------------*/
+
+
+/*base*/
+@import "base/typography";
+
+/* utilities */
+@import "utilities/variables";
+
+/* layout */
+@import "layout/common";
+@import "layout/header";
+
+/* Pages */
+@import "pages/home-page";
+
